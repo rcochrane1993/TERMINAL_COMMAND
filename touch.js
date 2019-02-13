@@ -1,3 +1,3 @@
 const terminalCommands = require('./terminal-commands');
 
-terminalCommands.touch(input);
+terminalCommands.touch();
