@@ -11,12 +11,9 @@ module.exports.ls = () => {
 };
 
 module.exports.touch = (input) => {
-    fs.writeFile('input', '', 'utf8', (err) => {
+    fs.writeFile('${input}', '', 'utf8', (err) => {
         if (err) throw err;
       
         console.log('file created')
       });
-
-/*module.exports.mkdir = () => {
-  // your code here
-};*/
+    }
