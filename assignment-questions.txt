@@ -1,0 +1,8 @@
+1. you import a module by creating a variable and using the "require" keryword.
+2. to export a module you use 'module.export'
+
+reasearch questions
+
+1. yes there are other ways to export a module such as using ES6 syntax("export" instead of "module.export")
+2. ES6 modules allow for simpler syntax when importing/exporting modules. you use the keyword "export" and there is no need
+to wrap entire javascript files into a single object or function closure.
